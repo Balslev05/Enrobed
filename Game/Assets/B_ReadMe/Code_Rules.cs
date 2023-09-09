@@ -1,10 +1,19 @@
 
+// Vi bruger noget der hedder Odin inspector som er bare en bedre inspector --
+// Det gør så også at der hvor der normal står monobehavior der skal i ændre det til SerializedMonoBehaviour HUSK DET MEGET VIGTIG ELLERS FUNGERE SCRIPTSNE IKKE 
+// I behøves ikke at gøre det pænt med odin men det hjælper utroligt meget!
+//  hvis i er i tvivl om hvordan man bruger det så - tools/odin/inspector/attribute  window så kan i se alt documentationen
 
 
-// Private Varibels is set with a _ fx speed = wrong _speed = right
+// Private Varibels is set with a _ fx. speed = wrong ||  _speed = right
 
-// public  Varibels is set with without a _ fx speed = right _speed = Wrong
+// public  Varibels is set with without a _ fx speed = right ||  _speed = Wrong
+
 
 // Varibels firstletter always  starts with a small letter  
 
 // Functions firstletter always  starts with a Big letter  
+
+
+// hvis i har nogle spørgsmål så skriv til mig, når i 
+

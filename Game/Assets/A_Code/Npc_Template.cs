@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Npc_Template : MonoBehaviour
+[CreateAssetMenu(fileName = "Npc", menuName = "Npc/Character", order = 1)]
+public class Npc_Template : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string name;
+    
+    [Header("Moods")]
+    public Sprite happy;
+    public Sprite sad;
+    public Sprite angry;
+    public Sprite normal;
 }
