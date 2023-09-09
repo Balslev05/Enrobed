@@ -21,8 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  name: 
-  person_Descrebtion: 
+  name: Test
+  person_Descrebtion: "Tobias- er glad \n"
   happy: {fileID: 0}
   sad: {fileID: 0}
   angry: {fileID: 0}
