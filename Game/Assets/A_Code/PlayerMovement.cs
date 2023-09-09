@@ -1,15 +1,26 @@
 using UnityEngine;
 using Cinemachine;
 using Unity.Mathematics;
+using Sirenix.OdinInspector;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : SerializedMonoBehaviour
 {
-    
- [SerializeField] float runSpeed = 20.0f;
+   [TabGroup("Stats")]
+   [Range(1,15)]
+   [SerializeField] int runSpeed;
 
- Rigidbody2D _body;
- float _horizontal;
- float _vertical;
+ 
+    [ShowInInspector]
+    [TabGroup("PrivateVaribals")]
+    Rigidbody2D _body;
+ 
+    [ShowInInspector]
+    [TabGroup("PrivateVaribals")]
+    float _horizontal;
+ 
+    [ShowInInspector]
+    [TabGroup("PrivateVaribals")]
+    float _vertical;
  
  void Start ()
  {

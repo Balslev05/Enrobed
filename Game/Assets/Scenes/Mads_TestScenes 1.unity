@@ -815,7 +815,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!114 &1757891898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -891,6 +891,14 @@ PrefabInstance:
     - target: {fileID: 8867205244081453843, guid: d6a0390e056192846b99582993e5214e, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8867205244081453844, guid: d6a0390e056192846b99582993e5214e, type: 3}
+      propertyPath: runSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8867205244081453844, guid: d6a0390e056192846b99582993e5214e, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8867205244081453846, guid: d6a0390e056192846b99582993e5214e, type: 3}
       propertyPath: m_RootOrder
