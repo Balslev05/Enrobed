@@ -5,9 +5,6 @@ using Unity.Mathematics;
 public class PlayerMovement : MonoBehaviour
 {
     
- public GameObject dustPartical;
- public GameObject pingvinSteppies;
-    
  [SerializeField] float runSpeed = 20.0f;
 
  Rigidbody2D _body;
@@ -30,13 +27,6 @@ public class PlayerMovement : MonoBehaviour
  private void FixedUpdate()
  {  
     _body.velocity = new Vector2(_horizontal * runSpeed, _vertical * runSpeed);
-     
-   
-    //! Re work this so only when moves and only when powerup, and works in a seperated function 
-    GameObject instatietetdust;
-   instatietetdust = Instantiate(dustPartical, pingvinSteppies.transform.position, quaternion.identity);
-   
-   Destroy(instatietetdust,0.3f);
  }
  
 }
