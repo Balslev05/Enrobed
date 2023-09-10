@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7169b2c58f32de48bfdd57a3c826d7a, type: 3}
-  m_Name: Test
+  m_Name: Edderkop
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,8 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  name: Test
-  person_Descrebtion: "Tobias- er glad \n"
+  name: Edderkop
+  person_Descrebtion: Jeg er en edderkop erm jaer
   happy: {fileID: 0}
   sad: {fileID: 0}
   angry: {fileID: 0}
