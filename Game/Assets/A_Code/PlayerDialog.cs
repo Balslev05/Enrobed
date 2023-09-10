@@ -5,27 +5,19 @@ using DG.Tweening;
 using TMPro;
 public class PlayerDialog : SerializedMonoBehaviour
 {
-    [ShowInInspector] 
-    [TabGroup("PrivateVariable")]
-    private Npc_Template _talkingTo;
-
-    [ShowInInspector] 
-    [TabGroup("PrivateVariable")]
-    public GameObject[] npcs;
-
-    [ShowInInspector] 
-    [TabGroup("PrivateVariable")]
-    private float _distance;
-    
-    [ShowInInspector] 
-    [TabGroup("PrivateVariable")]
-    private float _nearestdistance;
+    [TabGroup("Npcs")]
+    public GameObject[] npcs; // her finder vi alle npcerne
     
     [ShowInInspector] 
     [TabGroup("PrivateVariable")]
     private GameObject _closestNpc;
     
-    // Update is called once per frame
+    [ShowInInspector] 
+    [TabGroup("PrivateVariable")]
+    private float _distance;
+    
+    private float _talkDistance = 2; //den skal værer inde for denne range for at kunne snakke med npc
+    
      void Start()
     {
         npcs = GameObject.FindGameObjectsWithTag("Npc");
@@ -33,20 +25,24 @@ public class PlayerDialog : SerializedMonoBehaviour
 
     void Update()
     {
+        FindClosestNpc();
+        
+        if (Vector2.Distance(transform.position, _closestNpc.transform.position) <= _talkDistance && Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log(("Hej mit navn er ") + _closestNpc.GetComponent<CharacterSystem>().characterPersonality.name);
+        }
+    }
+
+    void FindClosestNpc()
+    {
         for (int i = 0; i < npcs.Length; i++)
         {
             _distance = Vector2.Distance(this.transform.position, npcs[i].transform.position);
             
-            if (_distance < _nearestdistance)
+            if (_distance < _talkDistance)
             {
                 _closestNpc = npcs[i];
-                _nearestdistance = _distance;
             }
-        }
-        
-        if (Vector2.Distance(transform.position, _closestNpc.transform.position) <= 2 && Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log(_closestNpc.GetComponent<CharacterSystem>().characterPersonality.name);
         }
     }
 }

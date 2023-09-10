@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8867205244081453846}
   - component: {fileID: 8867205244081453845}
   - component: {fileID: 8867205244081453844}
+  - component: {fileID: 3192650729915329734}
   - component: {fileID: 8867205244081453847}
   m_Layer: 0
   m_Name: Player
@@ -99,9 +100,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cc625547ff803e4d870e57d5fc82d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dustPartical: {fileID: 3734414913568469464, guid: 752305faacec4834b8c192b9d5dbfd17, type: 3}
-  pingvinSteppies: {fileID: 8867205244094549388}
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
   runSpeed: 5
+--- !u!114 &3192650729915329734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867205244081453843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2025e5893764b944c85dbc6d0f0a6cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  npcs: []
 --- !u!50 &8867205244081453847
 Rigidbody2D:
   serializedVersion: 4

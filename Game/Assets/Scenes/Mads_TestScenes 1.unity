@@ -1011,33 +1011,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1857457285 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8867205244081453843, guid: d6a0390e056192846b99582993e5214e, type: 3}
-  m_PrefabInstance: {fileID: 8867205243997553056}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1857457289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857457285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2025e5893764b944c85dbc6d0f0a6cdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  npcs: []
 --- !u!1001 &8867205243997553056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1045,6 +1018,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3192650729915329734, guid: d6a0390e056192846b99582993e5214e, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 3192650729915329734, guid: d6a0390e056192846b99582993e5214e, type: 3}
     - target: {fileID: 8867205244081453843, guid: d6a0390e056192846b99582993e5214e, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1056,7 +1033,7 @@ PrefabInstance:
     - target: {fileID: 8867205244081453844, guid: d6a0390e056192846b99582993e5214e, type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8867205244081453844, guid: d6a0390e056192846b99582993e5214e, type: 3}
     - target: {fileID: 8867205244081453846, guid: d6a0390e056192846b99582993e5214e, type: 3}
       propertyPath: m_RootOrder
       value: 1
