@@ -8,12 +8,12 @@ public class Npc_Template : SerializedScriptableObject
 {
     [TabGroup("PersonTraits")]
     [InfoBox("Navnet er barer deres navn")]
-    [SerializeField] string name;
+    public  string name;
     
     [TabGroup("PersonTraits")]
     [InfoBox("Den er ligegyldig for spillet lige pt men det er deres personlighed")]
     [TextArea(5, 10)]
-    [SerializeField] string person_Descrebtion;
+    [SerializeField] public string person_Descrebtion;
 
     [PreviewField]
     [InfoBox("Her er alle deres personligheder som fx. Glad, det er billerne i deres dialog UI der ændre sig")]
