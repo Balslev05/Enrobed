@@ -1,22 +1,23 @@
+using System;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using DG.Tweening;
 using TMPro;
+using Unity.VisualScripting;
+
 public class CharacterSystem : SerializedMonoBehaviour
 {
     public Npc_Template characterPersonality;
     public DialogCreater[] dialogs;
-    public int DialogProgress = 0;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int dialogProgress = 0;
+    public bool closest;
+    public GameObject TalkBox;
 
-    // Update is called once per frame
-    void Update()
+    public void Update()
     {
-        
+        if (closest)
+        {TalkBox.SetActive(true);}
+        else
+        {TalkBox.SetActive(false);}
     }
 }

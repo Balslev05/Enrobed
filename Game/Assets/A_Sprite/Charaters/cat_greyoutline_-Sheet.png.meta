@@ -125,7 +125,7 @@ TextureImporter:
         width: 26
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,7 +146,7 @@ TextureImporter:
         width: 26
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,9 +165,9 @@ TextureImporter:
         x: 227
         y: 21
         width: 26
-        height: 43
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -183,12 +183,12 @@ TextureImporter:
       name: cat_greyoutline_-Sheet_3
       rect:
         serializedVersion: 2
-        x: 327
+        x: 328
         y: 21
-        width: 26
-        height: 42
+        width: 25
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -211,10 +211,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      cat_greyoutline_-Sheet_4: 1478903908
       cat_greyoutline_-Sheet_1: 285109006
       cat_greyoutline_-Sheet_0: -193810343
       cat_greyoutline_-Sheet_2: -1517491342
       cat_greyoutline_-Sheet_3: -1305207249
+      cat_greyoutline_-Sheet_5: -1834154199
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
