@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ada1ec328ac96f4084085fc6b9e9baf, type: 3}
+  m_Name: Page_Emma
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  pageType: 1
+  Character_Pfp: {fileID: 21300000, guid: d76955ffe77d6c641bf94ea166e501d1, type: 3}
+  Character_FromWere: {fileID: 0}
+  Character_descreption: "Det her er Embla.\r\nDet her er Embla. Embla er en meget
+    hyperaktiv men ogs\xE5 meget selvsikker pige, fordi hun har form\xE5et at have
+    overvundet de tanker som hendes mobbere har givet hende efter at have drillet
+    hende med hendes farve og hyperaktive personlighed. Ud Over det d\xF8de hendes
+    for\xE6ldre ogs\xE5 p\xE5 udflugt til australien hvor det blev trampet p\xE5
+    af k\xE6nguruer. Heldigvis har hun en storebror p\xE5 21, men han drikker sig
+    for det meste stiv. Derfor har Embla altid v\xE6ret god til at passe p\xE5 sig
+    selv og k\xE6mpe imod hver og en der st\xE5r i vejen for hende. Hendes livret
+    er lasagne og hun elsker fodbold. Forresten, lider hun af epilepsi... meget tragisk..
+    ):"
+  Powers_Pfp: {fileID: -193810343, guid: 0e224fd0769ddc54aae400e19f080121, type: 3}
+  Powers_FromWere: {fileID: 0}
+  Powers_descreption: yrdydtdtdyihczewtjiiyugyufyu

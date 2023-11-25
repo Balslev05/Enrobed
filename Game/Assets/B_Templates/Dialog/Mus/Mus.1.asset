@@ -22,9 +22,9 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   stringText:
-  - Hej mit navn er B
-  - "Jeg er en mus, snak med mig for at finde hj\xE6lp\n"
-  - "Hj\xE6lp med at finde Kat hun jagede mig og s\xE5 fladt hun i s\xF8en"
+  - Hej mit navn er <color=green>B
+  - "Jeg er en mus , snak med mig for at finde hj\xE6lp\n"
+  - wda
   mood:
   - {fileID: 0}
   - {fileID: 0}

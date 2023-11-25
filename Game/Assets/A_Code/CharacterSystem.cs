@@ -10,13 +10,15 @@ public class CharacterSystem : SerializedMonoBehaviour
     public Npc_Template characterPersonality;
     public DialogCreater[] dialogs;
     public int dialogProgress = 0;
-    public bool closest;
     public GameObject TalkBox;
+    public GameObject player;
 
     public void Update()
     {
-        if (closest)
-        {TalkBox.SetActive(true);}
+        if (Vector2.Distance(transform.position, player.transform.position) <= 2)
+        {
+            TalkBox.SetActive(true);
+        }
         else
         {TalkBox.SetActive(false);}
     }
